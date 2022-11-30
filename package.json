@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "okome.js-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "node serve.js",
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "github.com/ikasoba000",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "esbuild": "^0.17.18",
+    "globby": "^13.1.4",
+    "http-server": "^14.1.1",
+    "typescript": "^5.0.4",
+    "esbuild-plugin-copy": "^2.1.1"
+  },
+  "dependencies": {
+    "@ikasoba000/okome.js": "^0.1.1"
+  }
+}
