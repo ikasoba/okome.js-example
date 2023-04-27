@@ -5,8 +5,8 @@
   "description": "example of okome.js",
   "main": "index.html",
   "scripts": {
-    "start": "node serve.js",
-    "build": "node build.js"
+    "start": "node --loader ts-node/esm serve.js",
+    "build": "node --loader ts-node/esm build.js"
   },
   "keywords": [],
   "author": "github.com/ikasoba000",
@@ -16,6 +16,7 @@
     "esbuild": "^0.17.18",
     "esbuild-plugin-copy": "^2.1.1",
     "globby": "^13.1.4",
+    "ts-node": "^10.9.1",
     "typescript": "^5.0.4"
   },
   "dependencies": {
