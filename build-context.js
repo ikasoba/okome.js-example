@@ -8,7 +8,7 @@ export default await context({
   minify: true,
   sourcemap: "linked",
   bundle: true,
-  entryPoints: await glob("./src/*.{jsx,js}"),
+  entryPoints: await glob("./src/*.{tsx,ts}"),
   outdir: "./dist",
   plugins: [
     copy({

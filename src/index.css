@@ -30,6 +30,7 @@ button {
   padding: 0.5rem;
   transition: filter 0.05s;
   box-shadow: 0 0.125rem 0 burlywood;
+  margin: 0.25rem;
 }
 
 button:hover {
