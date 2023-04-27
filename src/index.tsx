@@ -30,11 +30,25 @@ function App() {
       <header>
         <h1>okome.js example</h1>
       </header>
-      <section>
+      <main>
         <CounterComponent />
         <br />
         <SpoilerComponent>_(:3」∠)_</SpoilerComponent>
-      </section>
+      </main>
+      <footer>
+        <a target="_blank" href="https://github.com/ikasoba/okome.js-example/">
+          github
+        </a>
+        <a target="_blank" href="https://github.com/ikasoba/okome.js/">
+          okome.js github
+        </a>
+        <a
+          target="_blank"
+          href="https://www.npmjs.com/package/@ikasoba000/okome.js/"
+        >
+          okome.js npm
+        </a>
+      </footer>
     </>
   );
 }

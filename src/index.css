@@ -19,7 +19,7 @@ header > h1 {
   filter: invert(100%);
 }
 
-section {
+main {
   padding: 0.5rem;
 }
 
@@ -42,4 +42,9 @@ button:active {
   top: 0.125rem;
   box-shadow: 0 -0.125rem 0 burlywood;
   filter: brightness(85%);
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
 }
