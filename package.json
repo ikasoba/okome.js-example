@@ -2,7 +2,7 @@
   "type": "module",
   "name": "okome.js-example",
   "version": "1.0.0",
-  "description": "",
+  "description": "example of okome.js",
   "main": "index.html",
   "scripts": {
     "start": "node serve.js",
