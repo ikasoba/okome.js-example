@@ -1,6 +1,16 @@
 import { toDOMNode, ChildrenNode } from "@ikasoba000/okome.js";
 import { Signal } from "@ikasoba000/okome.js/signal";
 
+function CounterComponent() {
+  const count = new Signal(0);
+
+  count.onUpdate(() => {
+    console.log("count:", count.value);
+  });
+
+  return <button on:click={() => count.value++}>count: {count}</button>;
+}
+
 function SpoilerComponent({ children }: { children: ChildrenNode }) {
   const visible = new Signal(false);
 
@@ -14,16 +24,6 @@ function SpoilerComponent({ children }: { children: ChildrenNode }) {
   );
 }
 
-function CounterComponent() {
-  const count = new Signal(0);
-
-  count.onUpdate(() => {
-    console.log("count:", count.value);
-  });
-
-  return <button on:click={() => count.value++}>count: {count}</button>;
-}
-
 function App() {
   return (
     <>
@@ -33,7 +33,7 @@ function App() {
       <section>
         <CounterComponent />
         <br />
-        <SpoilerComponent initial={true}>_(:3」∠)_</SpoilerComponent>
+        <SpoilerComponent>_(:3」∠)_</SpoilerComponent>
       </section>
     </>
   );
