@@ -3,7 +3,6 @@
   "name": "okome.js-example",
   "version": "1.0.0",
   "description": "example of okome.js",
-  "main": "index.html",
   "scripts": {
     "start": "node --loader ts-node/esm serve.js",
     "build": "node --loader ts-node/esm build.js"
