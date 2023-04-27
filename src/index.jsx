@@ -9,9 +9,14 @@ function App() {
   });
 
   return (
-    <div>
-      <button on:click={() => count.value++}>count: {count}</button>
-    </div>
+    <>
+      <header>
+        <h1>okome.js example</h1>
+      </header>
+      <section>
+        <button on:click={() => count.value++}>count: {count}</button>
+      </section>
+    </>
   );
 }
 
